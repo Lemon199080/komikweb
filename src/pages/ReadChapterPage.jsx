@@ -154,7 +154,7 @@ const ReadChapterPage = () => {
           return;
         }
 
-        const response = await fetch(`http://47.84.51.43:5000/read/${chapterSlug}`);
+        const response = await fetch(`https://api.zeds.rocks/read/${chapterSlug}`);
 
         console.log('Chapter response headers:', {
           status: response.status,
