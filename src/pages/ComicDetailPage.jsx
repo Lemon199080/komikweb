@@ -5,7 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-const API_URL = 'http://47.84.51.43:5000';
+const API_URL = 'https://api.zeds.rocks';
 
 // Button components
 const PrimaryButton = ({ icon, children, onClick, className = '', disabled = false }) => (
