@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import ComicCard from '../components/ComicCard'; // Adjust the import path based on your file structure
 
-const API_URL = 'http://47.84.51.43:5000';
+const API_URL = 'https://api.zeds.rocks';
 
 const LibraryPage = () => {
   const [activeTab, setActiveTab] = useState('Bookmark');
