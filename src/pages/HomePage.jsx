@@ -13,8 +13,8 @@ export default function MobileMangaReader() {
 
   // Define API URLs for different tabs
   const API_URLS = {
-    project: 'http://47.84.51.43:5000',
-    mirror: 'http://47.84.51.43:5000',
+    project: 'https://api.zeds.rocks',
+    mirror: 'https://api.zeds.rocks',
   };
 
   // Helper function to ensure HD quality thumbnails
