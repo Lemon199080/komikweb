@@ -15,7 +15,7 @@ export default function ComicSearchPage() {
     setError(null);
 
     try {
-      const response = await fetch(`http://47.84.51.43:5000/search?q=${encodeURIComponent(query)}`);
+      const response = await fetch(`https://api.zeds.rocks/search?q=${encodeURIComponent(query)}`);
 
       if (!response.ok) {
         throw new Error('Failed to fetch comics');
